@@ -89,7 +89,7 @@
   }
 
   .about-the-frames {
-    height: calc(100vh - 50px);
+    height: calc(80vh - 50px);
   }
 
   .about-the-frames > h1 {
@@ -160,6 +160,20 @@
   }
 
   .about-the-frames {
-    height: calc(61vh - 50px);
+    height: calc(105vh - 50px);
+  }
+
+  .frame-left > p {
+    font-size: 16px;
+  }
+
+  .box > h3,
+  .box > p {
+    font-size: 14px;
+  }
+
+  .about-the-frames > h1 {
+    margin-left: 80px;
+    font-size: 18px;
   }
 }
