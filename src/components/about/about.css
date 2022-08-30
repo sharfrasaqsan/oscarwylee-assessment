@@ -3,11 +3,11 @@
 }
 
 .about-the-frames {
-    border: 1px solid black;
+    border: 1px solid #8e8e8e;
     border-radius: 25px;
     font-family: "Mukta", sans-serif;
     position: relative;
-    height: 500px;
+    height: 450px;
 }
 
 .about-the-frames > h1 {
@@ -22,12 +22,14 @@
 .frame-left {
     float: left;
     width: 50%;
-    padding: 0 75px;
+    padding: 180px 75px;
 }
 
 .frame-left > p {
     font-size: 20px;
     text-align: center;
+    line-height: 1.7rem;
+    font-weight: 500;
 }
 
 .frame-right {
@@ -43,15 +45,16 @@
 
 .container {
     text-transform: uppercase;
-    padding-bottom: 15px;
+    display: flex;
+    padding-bottom: 25px;
 }
 
 .box {
     width: 50%;
     float: left;
     text-align: center;
-    border: 1px solid black;
-    padding: 15px 0;
+    border: 1px solid #8e8e8e;
+    padding: 12px 0;
 }
 
 .box > h3 {
@@ -64,3 +67,17 @@
     font-weight: 500;
 }
 
+.frame-right > p, .p-boder > p {
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.p-boder {
+    border: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.p-boder > p:nth-child(2) {
+    color: black;
+    padding: 0 10px;
+}
