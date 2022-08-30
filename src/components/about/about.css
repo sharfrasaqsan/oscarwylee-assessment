@@ -7,7 +7,7 @@
   border-radius: 25px;
   font-family: "Mukta", sans-serif;
   position: relative;
-  height: 450px;
+  height: calc(77vh - 50px);
 }
 
 .about-the-frames > h1 {
@@ -89,7 +89,7 @@
   }
 
   .about-the-frames {
-    height: 70vh;
+    height: calc(100vh - 50px);
   }
 
   .about-the-frames > h1 {
@@ -98,9 +98,8 @@
     position: static;
     margin-top: -30px;
     margin-left: 80px;
-    padding: 0 15px;
+    padding: 0 20px;
     font-size: 19px;
-    overflow-wrap: break-word;
   }
 
   .frame-left {
@@ -143,8 +142,32 @@
 
   .frame-right > p {
     font-size: 11.5px;
-    line-height: 1.4rem;     
+    line-height: 1.4rem;
     padding-right: 12px;
     padding-left: 12px;
   }
+}
+
+@media screen and (max-width: 480px) {
+    .about-the-frames > h1 {
+        width: 50%;
+        text-align: center;
+        position: static;
+        margin-top: -20px;
+        margin-left: 110px;
+        padding: 0 20px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-the-frames > h1 {
+        width: 50%;
+        text-align: center;
+        position: static;
+        margin-top: -30px;
+        margin-left: 80px;
+        padding: 0 20px;
+        font-size: 20px;
+    }
 }
