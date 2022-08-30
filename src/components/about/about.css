@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 480px) {
   .about-the-frames {
-    height: calc(50vh - 50px);
+    height: calc(55vh - 50px);
   }
 
   .frame-left > p {
