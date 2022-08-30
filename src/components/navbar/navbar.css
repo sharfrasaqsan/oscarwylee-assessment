@@ -60,6 +60,11 @@
   cursor: pointer;
 }
 
+#nav-active {
+  border-bottom: 1px solid #0004ff;
+  color: #0004ff;
+}
+
 .navbar-btn {
   font-size: 16px;
   font-weight: 600;
@@ -152,5 +157,28 @@
 
   .cart-hide {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1187px) {
+  .navbar-list-item {
+    font-size: 14px;
+  }
+
+  .navbar-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-list-item {
+    margin-right: 18px;
+    font-size: 12px;
+  }
+
+  .navbar-btn {
+    font-size: 10px;
+    padding: 3px 7px;
   }
 }

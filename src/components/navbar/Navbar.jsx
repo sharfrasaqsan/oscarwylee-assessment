@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className="navbar-list">
           <li className="navbar-list-item">Glasses</li>
           <li className="navbar-list-item">Sunglasses</li>
-          <li className="navbar-list-item">Locations</li>
+          <li className="navbar-list-item" id="nav-active">Locations</li>
           <li className="navbar-list-item">Eye Test Info</li>
           <li className="navbar-list-item">Offers</li>
         </ul>
