@@ -91,11 +91,11 @@ legend {
   }
 
   .about-frame-left {
-    padding: 12px 20px 0 20px;
+    padding: 12px 10px 0 10px;
   }
 
   .about-frame-left > p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .about-product {
@@ -105,15 +105,15 @@ legend {
   legend {
     width: 50%;
     padding: 0 15px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .container {
-    padding: 0 15px 10px 15px;
+    padding: 0 15px 14px 15px;
   }
 
   .box {
-    padding: 20px 0;
+    padding: 16px 5px;
   }
 
   .about-frame-right > .p-border {
@@ -121,8 +121,8 @@ legend {
   }
 
   .about-frame-right > p {
-    font-size: 12px;
-    line-height: 1.4rem;
-    padding: 0 18px;
+    font-size: 11px;
+    line-height: 1.3rem;
+    padding: 0 14px;
   }
 }
